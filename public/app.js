@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-undef
-const socket = io('https://chatapi-tan-ten.vercel.app/3500');
+const socket = io('ws://chatapi-tan-ten.vercel.app/3500');
 
 const activity = document.querySelector('.activity');
 const msgInput = document.querySelector('input');

@@ -21,10 +21,7 @@ const io = new Server(expressServer, {
     origin:
       process.env.NODE_ENV === 'production'
         ? false
-        : [
-            'https://chatapi-tan-ten.vercel.app/5500',
-            'https://chatapi-tan-ten.vercel.app/5500',
-          ],
+        : ['https://chatapi-tan-ten.vercel.app', 'http://localhost:3500'],
   },
 });
 
